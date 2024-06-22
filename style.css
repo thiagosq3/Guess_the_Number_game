@@ -2,7 +2,7 @@
     --green:#d6b65e;
     --red:#c1ffa9;
     --background:#ffffff;
-    --gradient:#f3f3f3;
+    --gradient-1:#f3f3f3;
     --gradient-2:#fff1e4a9;
 
 }
@@ -15,7 +15,7 @@ font-weight: 300;
 body{
     width: 90vw;
     margin:0 auto;
-    background: radial-gradient(var(--gradient), var(--gradient-2));
+    background: radial-gradient(var(--gradient-1), var(--gradient-2));
     padding: 4rem;
 
 }
