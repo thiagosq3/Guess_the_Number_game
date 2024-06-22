@@ -32,7 +32,7 @@ if(attempts<maxGuesses){
     }
 
     else{
-        document.getElementById('textOutput').innerHTML='Congrat! You guesses the right number'
+        document.getElementById('textOutput').innerHTML='GOODBYE WORLD!!!'
         document.getElementById('inputBox').setAttribute('Readonly','Readonly')
         attempts++
         document.getElementById('attempts').innerHTML=attempts
