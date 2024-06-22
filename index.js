@@ -8,7 +8,7 @@ function newGame (){
 }
 
 function init(){
-    computerNumber=Math.floor(Math.random() * 100 + 1)
+    computerNumber=Math.floor(Math.random() * 99 + 1)
 console.log(computerNumber)
 }
 
